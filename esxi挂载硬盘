@@ -1,0 +1,12 @@
+vmkfstools -z /vmfs/devices/disks/未格式化硬盘标识符 /vmfs/volumes/ESXI系统盘路径/自定义名称.vmdk
+
+
+
+vmkfstools -z /vmfs/devices/disks/t10.ATA_____WDC_WD20EURS2D63S48Y0_________________________WD2DWCAZAJ063809 /vmfs/volumes/5ac791f9-74172f6b-18d1-e43a6e0448e3/DSM.vmdk
+
+
+
+
+vmkfstools -z /vmfs/devices/disks/t10.ATA_____Hitachi_HTS545050A7E380_______________________TE85413RKXVZDR /vmfs/volumes/5ed10c93-eb14a82a-587f-ac162d93ea24/HDD500.vmdk
+
+https://www.youtube.com/watch?v=f4lVGmq9eJY&t=186s
