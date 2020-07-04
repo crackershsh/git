@@ -1,0 +1,16 @@
+查看防火墙状态
+firewall-cmd --state
+停止firewall
+systemctl stop firewalld.service
+禁止firewall开机启动
+systemctl disable firewalld.service 
+
+
+17070068
+bjb525151
+
+
+虚拟机报错解决方法：
+ -找到你创建的这个虚拟机的目录。
+ 找到后缀名为vmx的文件；右键，用记事本打开，
+ 找到“smc.present = “TRUE””这一行，在下面加一行“smc.version=0”，保存退出；
