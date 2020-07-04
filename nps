@@ -1,0 +1,45 @@
+## 首选创建一个nps文件夹
+ 
+mkdir nps
+ 
+## cd到这个目录
+ 
+cd nps
+ 
+## 拉取nps镜像（在此教程中我拉取的是amd64架构，请根据你服务器实际架构选择，一般都是amd64）
+ 
+wget https://github.com/ehang-io/nps/releases/download/v0.26.6/linux_amd64_server.tar.gz
+ 
+## 解压相关文件
+ 
+tar -xvf linux_amd64_server.tar.gz
+ 
+## 查看解压后的文件
+ 
+ls
+ 
+## 安装nps
+ 
+sudo ./nps install
+ 
+## cd到nps配置文件夹
+ 
+cd /etc/nps
+ 
+## 按需修改nps的配置文件
+ 
+nano conf/nps.conf
+ 
+## 开启nps
+ 
+sudo nps start/stop
+nps restart
+nps update
+## 登录nps后台
+ 
+Access server IP:web service port (default is 8080).
+
+## nps升级
+
+nps update
+ 
