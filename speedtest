@@ -1,0 +1,6 @@
+1.下载speedtest
+# git clone https://github.com/sivel/speedtest-cli.git    
+# cd speedtest-cli
+# ./speedtest.py
+or 
+# python speettest.py
