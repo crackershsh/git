@@ -1,0 +1,32 @@
+Windows Server 2019 批量授权版KMS客户端安装密钥Volume:GVLKWindows Server 2019 Datacenter [Key]：WMDGN-G9PQG-XVVXX-R3X43-63DFG
+
+Windows Server 2019 Standard  [Key]：N69G4-B89J2-4G8F4-WWYCC-J464C
+
+Windows Server 2019 Essential    [Key]：WVDHN-86M7X-466 P 6-VHXV7-YY726
+
+slmgr /upk
+slmgr /ipk N69G4-B89J2-4G8F4-WWYCC-J464C
+slmgr /skms kms.03k.org
+slmgr /ato
+
+
+另外发现微软官方提供的《KMS 客户端安装密钥》，参照部署KMS就可以为其他系统提供激活服务了。
+以下信息来自微软官方网站Windows Server 半年频道版本
+Windows Server 版本 1809操作系统版本    KMS 客户端安装密钥
+
+Windows Server Datacenter    6NMRW-2C8FM-D24W7-TQWMY-CWH2D
+Windows Server Standard        N2KJX-J94YW-TQVFB-DG9YT-724CC
+Windows Server 版本 1803操作系统版本    KMS 客户端安装密钥
+
+Windows Server Datacenter    2HXDN-KRXHB-GPYC7-YCKFJ-7FVDG
+Windows Server Standard        PTXN8-JFHJM-4WC78-MPCBR-9W4KR
+Windows Server 版本 1709操作系统版本    KMS 客户端安装密钥
+
+Windows Server Datacenter    6Y6KB-N82V8-D8CQV-23MJW-BWTG6
+Windows Server Standard        DPCNP-XQFKJ-BJF7R-FRC8D-GF6G4
+Windows Server LTSC/LTSB 版本
+Windows Server 2019操作系统版本    KMS 客户端安装密钥
+
+Windows Server 2019 Datacenter    WMDGN-G9PQG-XVVXX-R3X43-63DFG
+Windows Server 2019 Standard    N69G4-B89J2-4G8F4-WWYCC-J464C
+Windows Server 2019 Essentials    WVDHN-86M7X-466 P 6-VHXV7-YY726
